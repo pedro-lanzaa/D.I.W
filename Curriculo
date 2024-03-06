@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+            color: #343a40;
+            margin-bottom: 5px;
+        }
+        .contact-info {
+            font-size: 18px;
+            color: #6c757d;
+        }
+        .bio {
+            text-align: justify;
+            margin-bottom: 30px;
+            font-size: 16px;
+            color: #444;
+        }
+        .photo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .photo img {
+            width: 150px;
+            height: auto;
+            border: 2px solid #dee2e6;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #343a40;
+            margin-bottom: 20px;
+        }
+        .subsection {
+            margin-bottom: 20px;
+        }
+        .subsection-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #6c757d;
+            margin-bottom: 10px;
+        }
+        .subsection-content {
+            font-size: 18px;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <div class="name">Pedro Oliveira Lanza</div>
+        <div class="contact-info">Rua Ártica · Belo Horizonte, Minas Gerais · +55 (31) 9 98603012 · pedrooliveiralanza@gmail.com</div>
+    </div>
+
+    <div class="bio">
+        <div class="photo">
+            <img src="image/2225.jpg" alt="Sua Foto">
+        </div>
+        <p>
+            Meu nome é Pedro Oliveira Lanza, nasci em 30/11/2005. Recentemente, concluí o ensino médio no Colégio Marista Padre Eustáquio. Desde cedo, sempre me interessei por computadores e tecnologia e com isso fiz alguns cursos online para aprimorar meus conhecimentos e ver se realmente me identificava com a área. Agora, estou ansioso para me aprofundar mais no curso e estudar o que realmente gosto.
+        </p>
+    </div>
+    <div class="section">
+        <div class="section-title">Educação</div>
+        <div class="subsection">
+            <div class="subsection-title">Engenharia de Software</div>
+            <div class="subsection-content">
+                PUC Minas · Belo Horizonte, Minas Gerais
+            </div>
+        </div>
+        <!-- Adicione mais subsections para educação adicional -->
+    </div>
+
+    <div class="section">
+        <div class="section-title">Habilidades</div>
+        <div class="subsection">
+            <div class="subsection-content">
+                Sou uma pessoa dedicada e comprometida, que busca sempre alcançar seus objetivos com determinação e perseverança e busco me destacar em diversos aspectos da minha vida, seja no trabalho, nos estudos ou nas relações pessoais. Além disso, toco violão, o tenho uma grande forma de expressão e criatividade. Assim busco enfrentar desafios com confiança e adaptabilidade, buscando constantemente o crescimento pessoal e profissional.
+            </div>
+        </div>
+    </div>
+
+    <!-- Adicione mais sections conforme necessário -->
+
+</div>
+
+</body>
+</html>
